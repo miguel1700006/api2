@@ -1,0 +1,26 @@
+{
+  "name": "comida",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome_comida": {
+      "type": "string",
+      "required": true
+    },
+    "tipo": {
+      "type": "string",
+      "required": true
+    },
+    "preco": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
